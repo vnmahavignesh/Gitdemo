@@ -1,6 +1,6 @@
-Feature:Free CRM login Feature
+Feature: Free CRM login Feature
 
-Scenario:Gree CRM login test scenario
+Scenario: Gree CRM login test scenario
 
 Given User is already in login page
 
