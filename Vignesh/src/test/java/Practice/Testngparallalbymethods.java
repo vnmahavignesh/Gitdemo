@@ -15,7 +15,7 @@ public class Testngparallalbymethods {
 
 	
 	@Parameters("browser")
-	@BeforeClass
+	@BeforeTest
 	public void platforms(String browser)
 	{
 		System.out.println("Browser Name : "+browser);
