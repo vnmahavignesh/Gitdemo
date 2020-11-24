@@ -3,6 +3,8 @@ package Practice;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -32,7 +34,11 @@ public class Testngparallalbymethods {
 			driver=new FirefoxDriver();
 		}
 	}
-	
+	@AfterTest
+	public void close()
+	{
+		driver.close();
+	}
 	@Test
 	public void test1() throws InterruptedException
 	{
