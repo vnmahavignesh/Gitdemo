@@ -34,8 +34,8 @@ public class Driver {
 		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.)
-	
+		Actions act = new Actions(driver);
+		
 	}	
 
 }
