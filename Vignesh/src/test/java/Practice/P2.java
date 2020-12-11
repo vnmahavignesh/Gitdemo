@@ -13,6 +13,7 @@ public static void main(String[] args) {
 	boolean t=false,b;
 	System.out.println(i+=3);
 	System.out.println(i++);
+	
 		
 	
 }
