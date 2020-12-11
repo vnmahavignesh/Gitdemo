@@ -26,8 +26,8 @@ public class Reverse {
 			else
 				System.out.println("The given string is not Palindrome");	
 			
-			WebDriver driver= WebDriver.class.newInstance();
-			SearchContext drv = new FirefoxDriver();
+//			WebDriver driver= WebDriver.class.newInstance();
+//			SearchContext drv = new FirefoxDriver();
 			
 //			driver= new ChromeDriver();
 //			List<WebElement> links = driver.findElements(By.linkText("a"));
