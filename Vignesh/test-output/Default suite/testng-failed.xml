@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Practice.Testngparallalbymethods">
+      <class name="mindtree.ExecutionClass">
         <methods>
-          <include name="test1"/>
-          <include name="platforms"/>
+          <include name="print_links"/>
+          <include name="open_browser"/>
         </methods>
-      </class> <!-- Practice.Testngparallalbymethods -->
+      </class> <!-- mindtree.ExecutionClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
