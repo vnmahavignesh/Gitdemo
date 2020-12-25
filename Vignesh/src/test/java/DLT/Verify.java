@@ -19,6 +19,7 @@ public class Verify {
 	{
 		
 		WebDriverManager.chromedriver().setup();
+//		hchvh
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
