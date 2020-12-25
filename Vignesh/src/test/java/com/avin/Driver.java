@@ -19,16 +19,19 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class Driver {
-	static
-	{
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
-		System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
-	}
+//	static
+//	{
+//		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+//		System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
+//	}
 	WebDriver driver;
 	@Test
 	public void ss() throws AWTException, InterruptedException
 	{
+		WebDriverManager.chromedriver().setup();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
