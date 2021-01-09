@@ -32,13 +32,13 @@ public class Driver {
 	public void ss() throws AWTException, InterruptedException
 	{
 		WebDriverManager.chromedriver().setup();
+		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().setScriptTimeout(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		Actions act = new Actions(driver);
-		
+		WebDriverWait wait = new WebDriverWait(driver,10);
+		Actions act = new Actions(driver);		
 	}	
 
 }

@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2266" started-at="2020-12-15T10:08:22Z" finished-at="2020-12-15T10:08:24Z">
+  <suite name="Default suite" duration-ms="13145" started-at="2021-01-06T05:17:17Z" finished-at="2021-01-06T05:17:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2266" started-at="2020-12-15T10:08:22Z" finished-at="2020-12-15T10:08:24Z">
-      <class name="mindtree.ExecutionClass">
-        <test-method status="PASS" signature="open_browser()[pri:0, instance:mindtree.ExecutionClass@51565ec2]" name="open_browser" is-config="true" duration-ms="5159" started-at="2020-12-15T10:08:17Z" finished-at="2020-12-15T10:08:22Z">
+    <test name="Default test" duration-ms="13145" started-at="2021-01-06T05:17:17Z" finished-at="2021-01-06T05:17:30Z">
+      <class name="com.avin.Driver">
+        <test-method status="PASS" signature="ss()[pri:0, instance:com.avin.Driver@5c7fa833]" name="ss" duration-ms="13084" started-at="2021-01-06T05:17:17Z" finished-at="2021-01-06T05:17:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open_browser -->
-        <test-method status="PASS" signature="print_links()[pri:0, instance:mindtree.ExecutionClass@51565ec2]" name="print_links" duration-ms="2233" started-at="2020-12-15T10:08:22Z" finished-at="2020-12-15T10:08:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- print_links -->
-        <test-method status="PASS" signature="close()[pri:0, instance:mindtree.ExecutionClass@51565ec2]" name="close" is-config="true" duration-ms="298" started-at="2020-12-15T10:08:24Z" finished-at="2020-12-15T10:08:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- mindtree.ExecutionClass -->
+        </test-method> <!-- ss -->
+      </class> <!-- com.avin.Driver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
